@@ -17,6 +17,7 @@ const Segment = () => import('@/views/segment/index.vue')
 const Scheduler = () => import('@/views/scheduler/index.vue')
 const Notify = () => import('@/views/notify/index.vue')
 const Cache = () => import('@/views/cache/index.vue')
+const CacheExplainer = () => import('@/views/cache/ExplainerView.vue')
 const Tag = () => import('@/views/tag/index.vue')
 const Share = () => import('@/views/share/index.vue')
 
@@ -40,6 +41,7 @@ const router = createRouter({
     { path: '/scheduler', name: 'scheduler', component: Scheduler },
     { path: '/notify', name: 'notify', component: Notify },
     { path: '/cache', name: 'cache', component: Cache },
+    { path: '/cache/explainer', name: 'cache-explainer', component: CacheExplainer },
     { path: '/tag', name: 'tag', component: Tag },
     { path: '/share', name: 'share', component: Share },
   ],

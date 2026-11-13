@@ -6,7 +6,8 @@
         <p class="page-desc">维护查询缓存策略的输入、执行约束与结果记录，为查询加速提供可验证的数据工程流程。</p>
       </div>
       <div class="page-actions">
-        <button class="btn primary" type="button" @click="openCreate">登记缓存策略</button>
+        <RouterLink class="btn primary" to="/cache/explainer">候选键来源解释器</RouterLink>
+        <button class="btn" type="button" @click="openCreate">登记缓存策略</button>
         <button class="btn" type="button" @click="exportRows">导出查询缓存清单</button>
       </div>
     </header>
